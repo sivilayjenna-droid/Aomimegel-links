@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ir a Amazon</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{
+            background:#f0f2f5;
+            font-family:Arial,sans-serif;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            min-height:100vh;
+            padding:20px;
+        }
+        .box{
+            background:#fff;
+            padding:40px 30px;
+            border-radius:16px;
+            box-shadow:0 4px 15px #00000015;
+            text-align:center;
+            max-width:380px;
+            width:100%;
+        }
+        h2{
+            color:#222;
+            margin-bottom:15px;
+        }
+        p{
+            color:#666;
+            margin-bottom:30px;
+        }
+        .jump-btn{
+            display:block;
+            width:100%;
+            padding:16px;
+            background:#ff9900;
+            color:#000;
+            text-decoration:none;
+            font-size:18px;
+            font-weight:bold;
+            border-radius:10px;
+            transition:0.3s;
+        }
+        .jump-btn:hover{
+            background:#e68a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Acceder a Producto</h2>
+        <p>Haz clic para ver en Amazon</p>
+        <a href="https://www.amazon.com/dp/B0F6JT31R2?th=1" target="_blank" class="jump-btn">
+            🛒 Ir a Amazon
+        </a>
+    </div>
+</body>
+</html>
